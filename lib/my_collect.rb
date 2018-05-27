@@ -4,7 +4,7 @@ def my_collect(array)
   {|name| name.split(" ").first 
   yield(array[i])
   i += 1 
-end 
+  end 
 array 
 end
   
